@@ -27,9 +27,14 @@ Repository: https://github.com/biogeco-org/biogeco-web
 
 - Confirm the final institutional identity and approval.
 - Add verified team members and approved photos/bios.
-- Add the most recent activities, publications and projects.
+- Complete the seven thematic research areas with confirmed projects, team members, publications and current activities.
 - Review outgoing contact links and social profiles.
 - Remove the preview banner and footer disclaimer only when the website is approved.
 - Connect the official `biogeco.org` domain only with permission from the domain administrator.
 
 No proprietary BioGeCo graphics, private member details or copyrighted source-site imagery are included.
+
+
+## Thematic-area buttons
+
+The **Research areas** section contains seven clickable expandable panels (native HTML `<details>` elements) and requires no JavaScript. To edit a topic, update its `<p>` text inside the corresponding `.research-area` block in `index.html`. Area descriptions are preliminary and should be validated by BioGeCo before official launch.
